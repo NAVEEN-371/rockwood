@@ -1,0 +1,10 @@
+{
+  "name": "rockwood-interior-design",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rock Wood Interior Design website",
+  "scripts": {
+    "start": "node server.js",
+    "build": "rm -rf dist && mkdir -p dist/public && cp index.html styles.css script.js dist/ && cp public/favicon.svg public/rockwood-mark.svg public/manus-routes.json dist/public/ && cp manus-routes.json dist/manus-routes.json"
+  }
+}
